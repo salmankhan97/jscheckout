@@ -1,0 +1,76 @@
+body {
+  background: #e3e3e3 !important; }
+  body #cart {
+    display: none; }
+  body .container {
+    border-radius: 10px;
+    background: #FFF;
+    border: solid 1px #bcbcbc;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+    body .container .title {
+      background: #ebcc00;
+      background: linear-gradient(0deg, #ebcc00 37%, #ffee3a 79%);
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px; }
+      body .container .title h1 {
+        font-weight: 400; }
+    body .container h2 {
+      font-size: 24px;
+      line-height: 2; }
+      @media (max-width: 768px) {
+        body .container h2 {
+          font-size: 18px !important; } }
+    body .container .content-body {
+      padding: 40px; }
+      body .container .content-body .cart-header {
+        margin-bottom: 20px; }
+        @media (max-width: 991px) {
+          body .container .content-body .cart-header {
+            display: none; } }
+        body .container .content-body .cart-header h4 {
+          font-size: 14px !important;
+          color: #494949; }
+      body .container .content-body .content .form-control {
+        border: 0 !important;
+        border-radius: 6px !important; }
+      body .container .content-body .content .remove-item {
+        width: 20px;
+        transition-duration: 0.3s; }
+        body .container .content-body .content .remove-item:hover {
+          opacity: 0.5; }
+      body .container .content-body h3 {
+        font-size: 18px !important; }
+        @media (max-width: 768px) {
+          body .container .content-body h3 {
+            font-size: 16px !important; } }
+      body .container .content-body p {
+        color: #ff6161 !important;
+        font-size: 13px; }
+      body .container .content-body .cart-body {
+        padding: 10px 0px; }
+      body .container .content-body .order-amount {
+        margin-top: 20px; }
+        body .container .content-body .order-amount .row {
+          padding: 5px 0px; }
+          body .container .content-body .order-amount .row .total-amount {
+            font-size: 24px !important; }
+            @media (max-width: 768px) {
+              body .container .content-body .order-amount .row .total-amount {
+                font-size: 20px !important; } }
+  body .btn-checkout {
+    background: #ebcc00;
+    background: linear-gradient(0deg, #ebcc00 37%, #ffee3a 79%);
+    border: 1px solid #0000;
+    width: 140px;
+    font-size: 16px !important;
+    font-weight: 600;
+    transition-duration: 0.3s;
+    margin-top: 20px; }
+  body .btn-checkout:hover, body .btn-checkout:focus {
+    opacity: 0.8; }
+  body .form-control:focus, body .btn:focus {
+    box-shadow: 0 0 0 0.25rem #efff0073 !important; }
+
+/*# sourceMappingURL=style.css.map */
